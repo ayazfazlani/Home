@@ -1,0 +1,82 @@
+.header{
+    border: 1px solid gray;
+    width: 100%;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .btn{
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 90px;
+    height: 56%;
+    margin: 2px;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.header ul li{
+    padding-left: 30px;
+
+}
+.header ul li a{
+    text-decoration: none;
+}
+.content{
+    margin-top: 5px;
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+.content .sidebar{
+    border: 1px solid rgb(255, 47, 47);
+    height: 100vh;
+    width: 17%;
+}
+.content .crousel{
+    display: flexbox;
+    align-items: center;
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;   
+}
+
+.content .crousel .slider{
+    margin-top: 5px;
+    margin-left: 7px;
+    border: 1px solid red;
+    width: 98%;
+    height: 40vh;
+}
+.content .crousel .body{
+    margin-top: 5px;
+    margin-left: 7px;
+    border: 1px solid red;
+    width: 98%;
+    height: 57vh;
+    display: inline-flex;
+    justify-content: center;
+}
+.content .crousel .body .tems{
+   
+    margin: 3px;
+     margin-top: 8px;
+    border: 1px solid red;
+    height: 69%;
+    width: 220px;
+    border-radius: 4px;
+}
+
+
+.footer{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
